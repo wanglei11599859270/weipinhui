@@ -1,0 +1,98 @@
+
+.logo-color{
+    color:#f10180;
+}
+.bg-logo-color{
+    background-color:#f10180;
+}
+
+#herder{min-width:1024px;}
+
+/*导航栏面包渣导航*/
+.font12-666{
+    font:12px "tahoma";
+    color:#777;
+}
+/*UL对齐方式末尾对其*/
+#head-ul {
+    justify-content: flex-end;
+    height:32px;
+}
+.herder-btn-1{
+    height: 32px;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    content:"|";
+}
+/*面包渣下的LOGO*/
+.h-100px{
+    height:100px;
+}
+.bg-img-1{
+    background-image:url(../projiect-img/1f6a2cfb627dd6f92a0f97722306ce9.png);
+    background-repeat:no-repeat ;
+    background-position:;
+    display: block;
+    height:100%;
+    width:101px;
+}
+/*搜索栏*/
+#shop-box{
+    position: relative;
+
+
+}
+#btn-1{
+    width:403px;height:36px;
+    border:2px solid #f10180;
+    position: relative;
+    border-radius:5px;
+}
+.input{
+    width: 347px; height: 32px;
+
+}
+#input-a{
+    width: 53px; height:32px;
+    display: inline-block;
+    background-color:#f10180 ;
+    position: absolute;
+}
+/*<!--搜索栏下的面包渣-->*/
+#li .breadcrumb-item+#li .breadcrumb-item::before{
+    content:"|";
+}
+.a-1{
+    width: 96px;height: 36px;
+    padding-top: 10px;
+
+}
+.input-bg-size{
+    width: 24px;height: 16px;
+    background-color:#f10180 ;
+    border-radius: 8px;
+}
+/*购物袋*/
+.span-1{
+    display: inline-block;
+    width: 12px;height: 17px;
+    background-image: url(../projiect-img/sprites-hash-b45bfef8.png);
+    background-position: -114px -208px;
+}
+#shop-dai{
+    position:absolute;
+    top:8px;left:460px
+}
+.font16-333{
+    font:font:16px "tahoma";
+    color:#333;
+}
+/*<!--水平导航栏-->*/
+.li-2{
+    width: 156px;height: 43px;
+}
+
+
+
+
+
